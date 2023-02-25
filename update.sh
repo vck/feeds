@@ -2,7 +2,7 @@ echo "Updating index"
 
 UNLISTED='README.md'
 
-now=$(date +'%y-%m-%d')
+now=$(date -u +'%y-%m-%d %H-%M-%S')
 echo "# Vicky's feeds | last update: $now" > README.md
 echo "" >> README.md
 for d in *.md; 
