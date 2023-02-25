@@ -1,11 +1,11 @@
-compile:
+c:
 	bash update.sh
 	git add feed-*
 	git commit -m 'update index'
 	git push origin master
 
-new:
+n:
 	bash generate-new-feeds.sh 
 
-push:
+p:
 	git push origin master
