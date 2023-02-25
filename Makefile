@@ -6,3 +6,6 @@ compile:
 
 new:
 	bash generate-new-feeds.sh 
+
+push:
+	git push origin master
