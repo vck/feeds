@@ -1,1 +1,1 @@
-touch $(date -u +'%y-%m-%d-%H-%M-%S').md
+touch feed-$(date -u +'%y-%m-%d-%H-%M-%S').md
