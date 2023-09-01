@@ -1,11 +1,9 @@
-c:
+publish:
 	bash update.sh
 	git add feed-*
+	git add README.md 
 	git commit -m 'update index'
 	git push origin master
 
-n:
+new:
 	bash generate-new-feeds.sh 
-
-p:
-	git push origin master
